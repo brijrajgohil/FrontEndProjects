@@ -3,26 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>jQuery Slider</title>
+    <link ref="css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <style>
-        .red {
-            color: red;
-        }
-        .green {
-            color: green;
-        }
-    </style>
-    <script>
-        $(document).ready(function() {
-            $('.myLink').click(function() {
-                $('h1').css('background-color', 'yellow');
-            })
-
-        });
-    </script>
 </head>
 <body>
-    <h1>Welcome everyone.</h1>
-    <a href="#" class="myLink">Click Me</a>
+    <div class="container">
+        <header>
+            <h1>jQuery Content Slider</h1>
+        </header>
+        <img src="img/arrow-left.png" alt="previous">
+    
+        <img src="img/arrow-right.png" alt="next">
+    </div>
 </body>
 </html>
